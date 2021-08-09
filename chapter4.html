@@ -1,0 +1,402 @@
+<html>
+    <head>
+        <style>
+        body {
+            background : #9C835F;
+            font-family: Open Sans;
+            }
+        #header {
+            display : flex;
+            align-items: center;
+            justify-content: ;
+            width: 60%;
+            height: 15%;
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+
+            color: #F9B23D;
+            position : absolute;
+        }
+        #left {
+            position: ;
+            width: 10%;
+            height: 100%;
+
+
+            display : flex;
+            justify-content: center;
+            align-items :center;
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            font-style: normal;
+            font-weight: bold;
+            font-size: ;
+            line-height:45px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            color: #724C21;
+        }
+        img#top {
+            width : 75%;
+            height : 75%;
+            
+        }
+        #mid {
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            width : 20%;
+
+            height : 100%;
+        }
+        #main {
+            width : 100%;
+            height : 100%;
+            position : ;
+            position : ;
+            float : ;
+        }
+        #mainC {
+            width : 60%;
+            margin : auto;
+            height : 100%;
+            position : relative;
+            margin : auto;
+            display : flex;
+            flex-direction: row;
+            top : 20px;
+        }
+        #leftC{
+            width : 33.3333%;
+            height : 100%;
+
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            color: #000000;
+        }
+        #midC{
+            width : 33.3333%;
+            height : 100%;
+        }
+        #rightC{
+            width : 33.3333%;
+            height : 100%;
+
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            color: #000000;
+        }
+        img {
+            width : 50%;
+            margin : 10px;
+        }
+        #midC{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box  {
+            width : 100%;
+            border-radius : 10%;
+        }
+        .box2  {
+            width : 100%;
+            border-radius : 10%;
+        }
+        #refresh {
+            width : 80px;
+            height : 10%;
+            position : fixed;
+            bottom : 0;  
+        }
+        #versus {
+            position : absolute;
+            transform : scale(35%);
+        }
+        #condition1 {
+            width : 100%;
+            display : ;
+        }
+        #condition2 {
+            width : 100%;
+            display : ;
+        }
+        #condition3 {
+            width : 100%;
+            display : ;
+        }
+        p{
+            position: absolute;
+            width: 300px;
+            height:200px;
+
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+            transform: rotate(-30.98deg);
+        }
+        #img1 {
+            display : none;
+        }
+        #img2 {
+            display : none;
+        }
+        #img3 {
+            display :none ;
+        }
+        #text {
+            position : relative;
+            top : 50px;
+            left : 30px; 
+        }
+        #text1 {
+            position : relative;
+            top : 80px;
+            left : 30px; 
+        }
+        #p {
+            transform : translateY(100%);
+        }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="left">
+                <h1><</h1>
+            </div>
+            <div id="mid">
+                <img id="top" src ="logo 1.png"/>
+            </div>
+            <div id="right">
+                ROCK PAPER SCISSORS
+            </div>
+        </div>
+        <div id="main" >
+            <div id="mainC">
+                <div id="leftC">
+                    Player 1
+                    <div class="box">
+                    <img class="suit" src ="batu.png"/>
+                    </div>
+                    <div class="box">
+                    <img id="hand" class="suit" src="kertas.png"/>
+                </div>
+                <div class="box">
+                    <img class="suit" src="gunting.png"/>
+                </div>
+                </div>
+                <div id="midC">
+                    <div id="img1">
+                        <div id="text1">
+                        <p>PLAYER 1</p><br> <br><p>WIN</p>
+                        </div>
+                    <img id="condition1" src ="Rectangle 67.png"></img>
+                </div>
+                <div id="img2">
+                    <div id="text">
+                    <p>COM WIN</p>
+                    </div>
+                <img id="condition2" src ="Rectangle 73.png"></img>
+            </div>
+            <div id="img3">
+                <div id="text">
+                <p>DRAW</p>
+                </div>
+            <img id="condition3" src ="Rectangle 73 (1).png"></img>
+        </div>
+                    <img id="versus" src="versus-symbol-png-mortal-kombat-vs-logo-11562852556fqywvrvikw-removebg-preview.png" />
+                    <img id="refresh" src="refresh.png" />
+                </div>
+                <div id="rightC">
+                    Player 2
+                    <div class="box2">
+                        <img class="suit" src ="batu.png"/>
+                        </div>
+                        <div class="box2">
+                        <img id="hand"  class="suit" src="kertas.png"/>
+                    </div>
+                    <div class="box2">
+                        <img class="suit" src="gunting.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+
+        class suit {
+            constructor(){
+                this.condition = "";
+                this.enemy = "";// kertas gunting batu
+                this.turn = true;
+            }
+        }
+        var st = new suit();
+        console.log(st.turn);
+
+        var bg = false;
+        var enemy;
+        var condition = document.getElementById("img1");
+        var condition2 = document.getElementById("img2");
+        var condition3 = document.getElementById("img3");
+        var box = document.getElementsByClassName("box");
+        var box2 = document.getElementsByClassName("box2");
+        var rf = document.getElementById("refresh");
+        var data =[];
+        var versus = document.getElementById("versus");
+        rf.addEventListener("click",function(){
+            st.turn = true;
+            condition.style.display = "none";
+            condition2.style.display = "none";
+            condition3.style.display = "none";
+            versus.style.display = "block";
+            for (var i=0;i<box.length;i++){
+                box[i].style.background = "#9C835F";
+                box2[i].style.background = "#9C835F";
+            }
+        })
+        for (var i =0;i<box.length;i++){
+            data[i] = i;
+        }
+        if (st.turn == true){
+        data.map(function(data){
+            return box[data].addEventListener("click",function(){
+            box[data].style.background = "#C4C4C4";
+            random(data);
+            if (st.turn == false){
+                alert ("restart the game !!");
+                return;
+            }
+            st.turn = false;
+            console.log(st.turn);
+            switch (data){
+                case 0:
+                    if (st.hand =="batu"){
+                        st.condition = "seri";
+                        console.log("seri");
+                        versus.style.display = "none";
+                        condition3.style.display = "block";
+                        
+                    }
+                    else if (st.hand=="gunting"){
+                        st.condition = "menang";
+                        console.log("menang");
+                        condition.style.display = "block";
+                        versus.style.display = "none";
+                    }
+                    else if (st.hand=="kertas"){
+                        st.condition = "kalah";
+                        console.log("kalah");
+                        versus.style.display = "none";
+                        condition2.style.display = "block";
+                    }
+                    st.turn = false;
+                break;
+                case 1 :
+                if (st.hand =="batu"){
+                    st.condition = "menang";
+                        console.log("menang");
+                        condition.style.display = "block";
+                        versus.style.display = "none";
+                    }
+                    else if (st.hand=="gunting"){
+                        st.condition = "kalah";
+                        console.log("kalah");
+                        versus.style.display = "none";
+                        condition2.style.display = "block";
+                    }
+                    else if (st.hand=="kertas"){
+                        st.condition = "seri";
+                        console.log("seri");
+                        versus.style.display = "none";
+                        condition3.style.display = "block";
+                    }
+                    st.turn = false;
+                    break;
+                case 2 :
+                    if (st.hand =="batu"){
+                        st.condition = "kalah";
+                        console.log("kalah");
+                        versus.style.display = "none";
+                        condition2.style.display = "block";
+                    }
+                    else if (st.hand=="gunting"){
+                        st.condition = "menang";
+                        console.log("menang");
+                        condition.style.display = "block";
+                        versus.style.display = "none";
+                    }
+                    else if (st.hand=="kertas"){
+                        st.condition = "seri";
+                        console.log("seri");
+                        versus.style.display = "none";
+                        condition3.style.display = "block";
+                    }
+                    st.turn = false;
+                    break;
+            }
+        })
+        })
+    }
+    if (st.turn == false) {
+        alert ("restart the game !!");
+    }
+        function random (data){
+            var x = Math.random();
+            if (x < 0.333){
+                st.hand = "batu";
+                box2[0].style.background = "#C4C4C4";
+            }
+            else if (x>=0.333 && x<=0.666){
+                st.hand="kertas";
+                box2[1].style.background = "#C4C4C4";
+            }
+            else {
+                st.hand = "gunting";
+                box2[2].style.background = "#C4C4C4";
+            }
+            console.log(x);
+        }
+
+    </script>
+    </body>
+</html>
